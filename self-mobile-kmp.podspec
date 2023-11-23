@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/joinself/self-mobile-kmp.git", :tag => "#{spec.version}" }
 
-  spec.ios.vendored_frameworks = 'Frameworks/self_ios_sdk.framework'
+  spec.ios.vendored_frameworks = 'Frameworks/self_mobile_kmp.framework'
   spec.dependency 'GoogleMLKit/FaceDetection'
 
 end
